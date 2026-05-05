@@ -1,0 +1,28 @@
+# Virtualenv (multi-GB, machine-specific) — recreate with requirements.txt
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# SECRETS: YouTube session cookies live in cache/ — NEVER commit them
+cache/*
+!cache/.gitkeep
+
+# Scratch / downloaded model weights
+models/*
+!models/.gitkeep
+
+# Large, regenerable audio intermediates inside run folders
+# (the meaningful outputs — MIDI / MusicXML / PDF / previews / metadata / logs — are kept)
+runs/**/01_raw_audio.*
+runs/**/02_audio_*.wav
+runs/**/*.info.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
