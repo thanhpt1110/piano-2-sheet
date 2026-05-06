@@ -1,0 +1,30 @@
+# Piano audio -> sheet PDF pipeline (bare-metal venv at piano2sheet/.venv).
+#
+# System packages (apt): ffmpeg lilypond musescore3 fluidsynth fluid-soundfont-gm timidity xvfb
+# JS runtime for yt-dlp's challenge solver (clears YouTube "n" challenge): deno
+#   curl -fsSL https://deno.land/install.sh | sh   (then symlink to /usr/local/bin/deno)
+#
+# PyTorch is installed separately from the CUDA 12.8 index for Blackwell (sm_120):
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+# Verified working: torch==2.11.0+cu128 on RTX PRO 6000 Blackwell, capability (12,0).
+
+# Transcription engines (install with --no-deps so they don't downgrade torch):
+#   pip install --no-deps transkun
+#   pip install --no-deps piano_transcription_inference
+transkun
+piano_transcription_inference
+
+# Audio I/O + transcription support
+pydub          # required by transkun.readAudio (skipped by --no-deps)
+yt-dlp
+librosa
+soundfile
+mido
+pretty_midi
+music21
+numpy
+scipy
+tqdm
+mir_eval
+moduleconf
+ffmpeg-python
