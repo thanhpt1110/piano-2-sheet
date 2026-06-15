@@ -1,0 +1,34 @@
+---
+description: piano2sheet — pipeline contract, mandatory title/composer, and safety rules
+alwaysApply: true
+---
+
+# piano2sheet — project rules
+
+`piano2sheet` is a local GPU (CUDA) CLI: piano audio (YouTube link or local file) → engraved sheet
+music (MusicXML + PDF). Flow: yt-dlp → ffmpeg (44.1 kHz mono) → Transkun (CUDA, audio→MIDI) →
+hand-split (`src/notation.py`) → key/modulation detection (`src/keysig.py`) → MuseScore engrave
+(`src/engrave_keys.py`). Full contract: `AGENTS.md`.
+
+## Always
+- **Title + composer are mandatory on every score.** Order: explicit `--title`/`--composer` → else
+  auto-extract from the YouTube video metadata → else fail. Local-file input requires both. Pass them
+  explicitly when the user names the song/artist; never hard-code a song's values in the code.
+- Run inside the venv: `source .venv/bin/activate` then `python src/pipeline.py ...`.
+- Keep artifacts under the per-job `runs/<name>/` folder.
+- Wrap MuseScore invocations in `timeout` + retry (`_ms_run`); `xvfb-run` can hang.
+
+## Never
+- Never commit `cache/` (YouTube session cookies = secrets) or any token.
+- Never commit `.venv/` or the large `runs/**/01_raw_audio.*` and `runs/**/02_audio_*.wav` intermediates.
+- Never add narrating comments; comments explain non-obvious *why* only.
+
+## Engraving facts (don't relearn the hard way)
+- MuseScore ignores MIDI key/time-signature meta on import — apply per-section key signatures and a
+  forced meter in music21 (`engrave_keys.py`), not via MIDI meta.
+- Respell a modulated section by lowering it to the base key, letting MuseScore spell it, then
+  transposing it back by a named interval.
+- MusicXML `<scaling>` overrides the style `Spatium` (set staff size via `_set_scaling`).
+
+## Style
+Python, 4-space indent, ~100-col lines, `black`. Verify edits parse before finishing.
