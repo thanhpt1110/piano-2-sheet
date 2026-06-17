@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-06-08 04:33:39",
+  "url": "https://youtu.be/xfr_IZ65Bi4?list=RDxfr_IZ65Bi4",
+  "audio": null,
+  "gpu": "0",
+  "device": "cuda",
+  "engine": "transkun",
+  "raw_audio": "/home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/01_raw_audio.webm",
+  "wav": "/home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/02_audio_44100_mono.wav",
+  "chosen_midi": "/home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/03_transkun.mid",
+  "engrave_midi": "/home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/05_2hand.mid",
+  "split_hands": true,
+  "split_point": 60,
+  "musicxml": "/home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/06_score.musicxml",
+  "pdf": "/home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/07_score.pdf"
+}

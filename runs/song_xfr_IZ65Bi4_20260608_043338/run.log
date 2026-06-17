@@ -1,0 +1,55 @@
++ yt-dlp --no-playlist -f ba/b -o /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/01_raw_audio.%(ext)s --cookies cache/youtube_cookies.txt https://youtu.be/xfr_IZ65Bi4?list=RDxfr_IZ65Bi4
+[YoutubeYtBe] Extracting URL: https://youtu.be/xfr_IZ65Bi4?list=RDxfr_IZ65Bi4
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=xfr_IZ65Bi4&list=RDxfr_IZ65Bi4&feature=youtu.be
+[youtube:tab] Downloading just the video xfr_IZ65Bi4 because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=xfr_IZ65Bi4
+[youtube] xfr_IZ65Bi4: Downloading webpage
+[youtube] xfr_IZ65Bi4: Downloading tv downgraded player API JSON
+[youtube] xfr_IZ65Bi4: Downloading player 5cabb421-main
+[youtube] [jsc:deno] Solving JS challenges using deno
+[youtube] xfr_IZ65Bi4: Downloading m3u8 information
+[info] xfr_IZ65Bi4: Downloading 1 format(s): 251
+[download] Destination: /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/01_raw_audio.webm
+[download]   0.0% of    5.54MiB at  482.21KiB/s ETA 00:11[download]   0.1% of    5.54MiB at    1.27MiB/s ETA 00:04[download]   0.1% of    5.54MiB at    2.74MiB/s ETA 00:02[download]   0.3% of    5.54MiB at    5.51MiB/s ETA 00:01[download]   0.5% of    5.54MiB at    1.16MiB/s ETA 00:04[download]   1.1% of    5.54MiB at    1.27MiB/s ETA 00:04[download]   2.2% of    5.54MiB at    1.74MiB/s ETA 00:03[download]   4.5% of    5.54MiB at    2.48MiB/s ETA 00:02[download]   9.0% of    5.54MiB at    3.93MiB/s ETA 00:01[download]  18.0% of    5.54MiB at    6.57MiB/s ETA 00:00[download]  36.1% of    5.54MiB at   11.31MiB/s ETA 00:00[download]  72.2% of    5.54MiB at   19.84MiB/s ETA 00:00[download] 100.0% of    5.54MiB at   24.37MiB/s ETA 00:00[download] 100% of    5.54MiB in 00:00:00 at 17.00MiB/s  
++ ffmpeg -y -i /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/01_raw_audio.webm -ac 1 -ar 44100 -af aresample=async=1:first_pts=0 /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/02_audio_44100_mono.wav
+ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, matroska,webm, from '/home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/01_raw_audio.webm':
+  Metadata:
+    encoder         : google/video-file
+  Duration: 00:05:07.42, start: -0.007000, bitrate: 151 kb/s
+  Stream #0:0(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/02_audio_44100_mono.wav':
+  Metadata:
+    ISFT            : Lavf58.76.100
+  Stream #0:0(eng): Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s (default)
+    Metadata:
+      encoder         : Lavc58.134.100 pcm_s16le
+size=       1kB time=00:00:00.00 bitrate=N/A speed=N/A    size=   18944kB time=00:03:41.26 bitrate= 701.4kbits/s speed= 442x    size=   26479kB time=00:05:07.41 bitrate= 705.6kbits/s speed= 433x    
+video:0kB audio:26479kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000288%
++ transkun /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/02_audio_44100_mono.wav /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/03_transkun.mid --device cuda
+/home/ubuntu/thaphan/piano2sheet/.venv/lib/python3.10/site-packages/torch/_dynamo/eval_frame.py:1263: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. Starting in PyTorch 2.9, calling checkpoint without use_reentrant will raise an exception. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+/home/ubuntu/thaphan/piano2sheet/.venv/lib/python3.10/site-packages/torch/utils/checkpoint.py:232: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  check_backward_validity(args)
+hand-split @ 60: right=2518 left=898 -> /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/05_2hand.mid
++ /usr/bin/xvfb-run -a /usr/bin/musescore3 /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/05_2hand.mid -o /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/06_score.musicxml
+convert </home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/05_2hand.mid>...
+	to </home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/06_score.musicxml>
+... success!
++ /usr/bin/xvfb-run -a /usr/bin/musescore3 /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/05_2hand.mid -o /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/07_score.pdf
+convert </home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/05_2hand.mid>...
+	to </home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/07_score.pdf>
+... success!

@@ -1,0 +1,11 @@
++ yt-dlp --no-playlist -f ba/b -o /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/01_raw_audio.%(ext)s --cookies cache/youtube_cookies.txt https://youtu.be/xfr_IZ65Bi4?list=RDxfr_IZ65Bi4
++ ffmpeg -y -i /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/01_raw_audio.webm -ac 1 -ar 44100 -af aresample=async=1:first_pts=0 /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/02_audio_44100_mono.wav
++ transkun /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/02_audio_44100_mono.wav /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/03_transkun.mid --device cuda
++ /usr/bin/xvfb-run -a /usr/bin/musescore3 /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/05_2hand.mid -o /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/06_score.musicxml
++ /usr/bin/xvfb-run -a /usr/bin/musescore3 /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/05_2hand.mid -o /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/07_score.pdf
+DONE
+device: cuda
+MIDI: /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/03_transkun.mid
+MusicXML: /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/06_score.musicxml
+PDF: /home/ubuntu/thaphan/piano2sheet/runs/song_xfr_IZ65Bi4_20260608_043338/07_score.pdf
+PIPELINE_EXIT=0 Mon Jun  8 04:33:54 UTC 2026

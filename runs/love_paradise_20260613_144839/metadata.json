@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-06-13 14:48:40",
+  "url": "https://youtu.be/RJatToOoxj4",
+  "audio": null,
+  "gpu": "0",
+  "device": "cuda",
+  "engine": "transkun",
+  "raw_audio": "/home/ubuntu/thaphan/piano2sheet/runs/love_paradise_20260613_144839/01_raw_audio.webm",
+  "wav": "/home/ubuntu/thaphan/piano2sheet/runs/love_paradise_20260613_144839/02_audio_44100_mono.wav",
+  "chosen_midi": "/home/ubuntu/thaphan/piano2sheet/runs/love_paradise_20260613_144839/03_transkun.mid",
+  "engrave_midi": "/home/ubuntu/thaphan/piano2sheet/runs/love_paradise_20260613_144839/05_2hand.mid",
+  "split_hands": true,
+  "split_point": 60,
+  "musicxml": "/home/ubuntu/thaphan/piano2sheet/runs/love_paradise_20260613_144839/06_score.musicxml",
+  "pdf": "/home/ubuntu/thaphan/piano2sheet/runs/love_paradise_20260613_144839/07_score.pdf"
+}

@@ -1,0 +1,11 @@
++ yt-dlp --no-playlist -f ba/b -o /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/01_raw_audio.%(ext)s --cookies cache/youtube_cookies.txt https://youtu.be/y-d6auU97sk
++ ffmpeg -y -i /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/01_raw_audio.webm -ac 1 -ar 44100 -af aresample=async=1:first_pts=0 /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/02_audio_44100_mono.wav
++ transkun /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/02_audio_44100_mono.wav /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/03_transkun.mid --device cuda
++ /usr/bin/xvfb-run -a /usr/bin/musescore3 /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/05_2hand.mid -o /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/06_score.musicxml
++ /usr/bin/xvfb-run -a /usr/bin/musescore3 /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/05_2hand.mid -o /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/07_score.pdf
+DONE
+device: cuda
+MIDI: /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/03_transkun.mid
+MusicXML: /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/06_score.musicxml
+PDF: /home/ubuntu/thaphan/piano2sheet/runs/my_heart_will_go_on_20260608_061530/07_score.pdf
+PIPELINE_EXIT=0 Mon Jun  8 06:15:44 UTC 2026
