@@ -1,0 +1,1 @@
+python src/engrave_keys.py runs/tonghua_3Vy4j8GhTig_20260618_082524/05_2hand.mid --out-xml runs/tonghua_3Vy4j8GhTig_20260618_082524/06_score.musicxml --out-pdf runs/tonghua_3Vy4j8GhTig_20260618_082524/07_score.pdf --style style/compact.mss --staff-mm 1.675 --time-sig 4/4 --title "Tong Hua" --composer "Guang Liang | 光良"
