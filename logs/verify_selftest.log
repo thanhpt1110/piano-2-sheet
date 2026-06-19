@@ -1,0 +1,33 @@
+=== artifacts ===
+total 5496
+drwxrwxr-x 2 ubuntu ubuntu    4096 Jun  7 13:32 .
+drwxr-xr-x 5 ubuntu ubuntu    4096 Jun  7 13:32 ..
+-rw-rw-r-- 1 ubuntu ubuntu 3682604 Jun  7 13:29 01_raw_audio.wav
+-rw-rw-r-- 1 ubuntu ubuntu 1841358 Jun  7 13:32 02_audio_44100_mono.wav
+-rw-rw-r-- 1 ubuntu ubuntu     474 Jun  7 13:32 03_transkun.mid
+-rw-rw-r-- 1 ubuntu ubuntu   37454 Jun  7 13:32 05_score.musicxml
+-rw-rw-r-- 1 ubuntu ubuntu   28267 Jun  7 13:32 06_score.pdf
+-rw-rw-r-- 1 ubuntu ubuntu     974 Jun  7 13:32 console.log
+-rw-rw-r-- 1 ubuntu ubuntu     572 Jun  7 13:32 metadata.json
+-rw-rw-r-- 1 ubuntu ubuntu    4339 Jun  7 13:32 run.log
+=== file types ===
+/opt/piano2sheet/runs/selftest_20260607_133206/03_transkun.mid:   Standard MIDI data (format 1) using 2 tracks at 1/960
+/opt/piano2sheet/runs/selftest_20260607_133206/05_score.musicxml: XML 1.0 document, ASCII text
+/opt/piano2sheet/runs/selftest_20260607_133206/06_score.pdf:      PDF document, version 1.4, 1 pages
+=== MIDI stats (input vs transcribed) ===
+03_transkun.mid          notes=  59 dur=20.84s
+selftest_piano.mid       notes=  64 dur=20.87s
+=== metadata.json ===
+{
+  "created_at": "2026-06-07 13:32:07",
+  "url": null,
+  "audio": "/opt/piano2sheet/cache/selftest_piano.wav",
+  "gpu": "0",
+  "device": "cuda",
+  "engine": "transkun",
+  "raw_audio": "/opt/piano2sheet/runs/selftest_20260607_133206/01_raw_audio.wav",
+  "wav": "/opt/piano2sheet/runs/selftest_20260607_133206/02_audio_44100_mono.wav",
+  "chosen_midi": "/opt/piano2sheet/runs/selftest_20260607_133206/03_transkun.mid",
+  "musicxml": "/opt/piano2sheet/runs/selftest_20260607_133206/05_score.musicxml",
+  "pdf": "/opt/piano2sheet/runs/selftest_20260607_133206/06_score.pdf"
+}VERIFY_EXIT=0

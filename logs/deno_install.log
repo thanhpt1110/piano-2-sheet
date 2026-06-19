@@ -1,0 +1,12 @@
+#=#=#                                                                         ##                                                                         3.6%#########################                                                 35.9%###################################################                       71.0%######################################################################    98.3%######################################################################## 100.0%
+Archive:  /home/ubuntu/.deno/bin/deno.zip
+  inflating: /home/ubuntu/.deno/bin/deno  
+Deno was installed successfully to /home/ubuntu/.deno/bin/deno
+Run '/home/ubuntu/.deno/bin/deno --help' to get started
+
+Stuck? Join our Discord https://discord.gg/deno
+INSTALL_EXIT=0
+deno path: /usr/local/bin/deno
+deno 2.8.2 (stable, release, x86_64-unknown-linux-gnu)
+v8 14.9.207.2-rusty
+typescript 6.0.3

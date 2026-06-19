@@ -1,0 +1,24 @@
+[youtube] Extracting URL: https://youtu.be/EO0g6grDd74
+[youtube] EO0g6grDd74: Downloading webpage
+[youtube] EO0g6grDd74: Downloading tv downgraded player API JSON
+[youtube] EO0g6grDd74: Downloading player 5cabb421-main
+[youtube] [jsc:deno] Solving JS challenges using deno
+[youtube] EO0g6grDd74: Downloading m3u8 information
+[info] Available formats for EO0g6grDd74:
+ID  EXT   RESOLUTION FPS CH |   FILESIZE  TBR PROTO | VCODEC       VBR ACODEC      ABR ASR MORE INFO
+------------------------------------------------------------------------------------------------------------
+sb3 mhtml 48x27        0    |                 mhtml | images                               storyboard
+sb2 mhtml 80x45        1    |                 mhtml | images                               storyboard
+sb1 mhtml 160x90       1    |                 mhtml | images                               storyboard
+sb0 mhtml 320x180      1    |                 mhtml | images                               storyboard
+140 m4a   audio only      2 |    3.78MiB 129k https | audio only       mp4a.40.2  129k 44k medium, m4a_dash
+251 webm  audio only      2 |    4.32MiB 148k https | audio only       opus       148k 48k medium, webm_dash
+91  mp4   256x144     25    | ~  2.43MiB  83k m3u8  | avc1.4D400C      mp4a.40.5
+160 mp4   256x144     25    |  664.21KiB  22k https | avc1.4d400c  22k video only          144p, mp4_dash
+93  mp4   640x360     25    | ~  6.93MiB 237k m3u8  | avc1.4D401E      mp4a.40.2
+134 mp4   640x360     25    |    2.00MiB  68k https | avc1.4d401e  68k video only          360p, mp4_dash
+18  mp4   640x360     25  2 | ≈  5.77MiB 198k https | avc1.42001E      mp4a.40.2       44k 360p
+243 webm  640x360     25    |    3.69MiB 127k https | vp9         127k video only          360p, webm_dash
+95  mp4   1280x720    25    | ~ 22.86MiB 783k m3u8  | avc1.4D401F      mp4a.40.2
+136 mp4   1280x720    25    |   14.42MiB 494k https | avc1.4d401f 494k video only          720p, mp4_dash
+FMT2_EXIT=0

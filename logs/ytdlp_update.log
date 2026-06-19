@@ -1,0 +1,59 @@
+++ echo '=== runtimes ==='
+=== runtimes ===
+++ for r in node nodejs deno bun
+++ printf '%-8s ' node
+node     ++ which node
+/home/ubuntu/.cursor-server/bin/linux-x64/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60/node
+++ for r in node nodejs deno bun
+++ printf '%-8s ' nodejs
+nodejs   ++ which nodejs
+/usr/bin/nodejs
+++ for r in node nodejs deno bun
+++ printf '%-8s ' deno
+deno     ++ which deno
+++ echo '(missing)'
+(missing)
+++ for r in node nodejs deno bun
+++ printf '%-8s ' bun
+bun      ++ which bun
+++ echo '(missing)'
+(missing)
+++ node --version
+v20.18.2
+++ cd /opt/piano2sheet
+++ . .venv/bin/activate
++++ deactivate nondestructive
++++ '[' -n '' ']'
++++ '[' -n '' ']'
++++ '[' -n /bin/bash -o -n '' ']'
++++ hash -r
++++ '[' -n '' ']'
++++ unset VIRTUAL_ENV
++++ unset VIRTUAL_ENV_PROMPT
++++ '[' '!' nondestructive = nondestructive ']'
++++ VIRTUAL_ENV=/opt/piano2sheet/.venv
++++ export VIRTUAL_ENV
++++ _OLD_VIRTUAL_PATH=/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/home/ubuntu/.cursor-server/bin/linux-x64/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60:/home/ubuntu/.cursor-server/bin/linux-x64/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/home/ubuntu/.cursor-server/bin/linux-x64/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++++ PATH=/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/opt/piano2sheet/.venv/bin:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/home/ubuntu/.cursor-server/bin/linux-x64/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60:/home/ubuntu/.cursor-server/bin/linux-x64/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60/bin/remote-cli:/home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/home/ubuntu/.cursor-server/bin/linux-x64/81fcf2931d7687b4ff3f3017858d0c6dee7e2a60/bin/remote-cli:/home/ubuntu/.local/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/opt/amazon/openmpi/bin:/opt/amazon/efa/bin:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/usr/local/cuda-12.9/bin:/usr/local/cuda-12.9/include:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++++ export PATH
++++ '[' -n '' ']'
++++ '[' -z '' ']'
++++ _OLD_VIRTUAL_PS1='(.venv) (.venv) (.venv) (.venv) (.venv) (.venv) '
++++ PS1='(.venv) (.venv) (.venv) (.venv) (.venv) (.venv) (.venv) '
++++ export PS1
++++ VIRTUAL_ENV_PROMPT='(.venv) '
++++ export VIRTUAL_ENV_PROMPT
++++ '[' -n /bin/bash -o -n '' ']'
++++ hash -r
+++ echo '=== updating yt-dlp to nightly ==='
+=== updating yt-dlp to nightly ===
+++ python -m pip install -U --pre 'yt-dlp[default]'
+++ tail -5
+    Uninstalling yt-dlp-2026.3.17:
+      Successfully uninstalled yt-dlp-2026.3.17
+
+
+Successfully installed brotli-1.2.0 mutagen-1.47.0 pycryptodomex-3.23.0 websockets-16.0 yt-dlp-2026.6.6.234447.dev0 yt-dlp-ejs-0.8.0
+++ yt-dlp --version
+2026.06.06.234447
+YTDLP_UPDATE_DONE exit=0

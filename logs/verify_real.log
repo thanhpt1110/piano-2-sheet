@@ -1,0 +1,33 @@
+=== files ===
+total 26224
+drwxrwxr-x 2 ubuntu ubuntu     4096 Jun  7 13:58 .
+drwxr-xr-x 7 ubuntu ubuntu     4096 Jun  7 13:57 ..
+-rw-rw-r-- 1 ubuntu ubuntu  4527441 Jun  7 13:52 01_raw_audio.webm
+-rw-rw-r-- 1 ubuntu ubuntu 21599928 Jun  7 13:57 02_audio_44100_mono.wav
+-rw-rw-r-- 1 ubuntu ubuntu     6316 Jun  7 13:58 03_transkun.mid
+-rw-rw-r-- 1 ubuntu ubuntu     6948 Jun  7 13:58 04_hpt.mid
+-rw-rw-r-- 1 ubuntu ubuntu   559559 Jun  7 13:58 05_score.musicxml
+-rw-rw-r-- 1 ubuntu ubuntu   114918 Jun  7 13:58 06_score.pdf
+-rw-rw-r-- 1 ubuntu ubuntu     1337 Jun  7 13:58 console.log
+-rw-rw-r-- 1 ubuntu ubuntu      586 Jun  7 13:58 metadata.json
+-rw-rw-r-- 1 ubuntu ubuntu     5822 Jun  7 13:58 run.log
+=== file types ===
+/opt/piano2sheet/runs/tonghua_20260607_135755/04_hpt.mid:        Standard MIDI data (format 1) using 2 tracks at 1/384
+/opt/piano2sheet/runs/tonghua_20260607_135755/05_score.musicxml: XML 1.0 document, ASCII text
+/opt/piano2sheet/runs/tonghua_20260607_135755/06_score.pdf:      PDF document, version 1.4, 6 pages
+=== MIDI stats ===
+03_transkun.mid    notes=  905 dur=243.3s
+04_hpt.mid         notes=  923 dur=246.4s
+=== PDF pages ===
+pages= 6
+convert </opt/piano2sheet/runs/tonghua_20260607_135755/05_score.musicxml>...
+	to </opt/piano2sheet/runs/tonghua_20260607_135755/preview.png>
+... success!
+/opt/piano2sheet/runs/tonghua_20260607_135755/preview-1.png
+/opt/piano2sheet/runs/tonghua_20260607_135755/preview-2.png
+/opt/piano2sheet/runs/tonghua_20260607_135755/preview-3.png
+/opt/piano2sheet/runs/tonghua_20260607_135755/preview-4.png
+/opt/piano2sheet/runs/tonghua_20260607_135755/preview-5.png
+/opt/piano2sheet/runs/tonghua_20260607_135755/preview-6.png
+/opt/piano2sheet/runs/tonghua_20260607_135755/preview-7.png
+VERIFY_DONE=0

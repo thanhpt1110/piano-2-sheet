@@ -1,0 +1,53 @@
+++ python -m pip install --no-deps transkun torchlibrosa piano_transcription_inference
+Collecting transkun
+  Downloading transkun-2.0.1-py3-none-any.whl.metadata (10 kB)
+Collecting torchlibrosa
+  Downloading torchlibrosa-0.1.0-py3-none-any.whl.metadata (3.5 kB)
+Collecting piano_transcription_inference
+  Downloading piano_transcription_inference-0.0.6-py3-none-any.whl.metadata (2.9 kB)
+Downloading transkun-2.0.1-py3-none-any.whl (50.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.8/50.8 MB 66.3 MB/s  0:00:00
+
+Downloading torchlibrosa-0.1.0-py3-none-any.whl (11 kB)
+Downloading piano_transcription_inference-0.0.6-py3-none-any.whl (14 kB)
+Installing collected packages: transkun, torchlibrosa, piano_transcription_inference
+
+
+Successfully installed piano_transcription_inference-0.0.6 torchlibrosa-0.1.0 transkun-2.0.1
+++ echo '=== torch still intact? ==='
+=== torch still intact? ===
+++ python -c 'import torch; print('\''torch'\'', torch.__version__, '\''cuda'\'', torch.cuda.is_available())'
+torch 2.11.0+cu128 cuda True
+++ echo '=== transkun CLI ==='
+=== transkun CLI ===
+++ transkun --help
+++ head -25
+usage: transkun [-h] [--weight WEIGHT] [--conf CONF] [--device [DEVICE]]
+                [--segmentHopSize SEGMENTHOPSIZE] [--segmentSize SEGMENTSIZE]
+                audioPath outPath
+
+positional arguments:
+  audioPath             path to the input audio file
+  outPath               path to the output MIDI file
+
+options:
+  -h, --help            show this help message and exit
+  --weight WEIGHT       path to the pretrained weight
+  --conf CONF           path to the model conf
+  --device [DEVICE]     The device used to perform the most computations
+                        (optional), DEFAULT: cpu
+  --segmentHopSize SEGMENTHOPSIZE
+                        The segment hopsize for processing the entire audio
+                        file (s), DEFAULT: the value defined in model conf
+  --segmentSize SEGMENTSIZE
+                        The segment size for processing the entire audio file
+                        (s), DEFAULT: the value defined in model conf
+++ echo '=== imports ==='
+=== imports ===
+++ python -c 'import transkun; print('\''transkun import OK'\'')'
+++ tail -2
+transkun import OK
+++ python -c 'import piano_transcription_inference; print('\''HPT import OK'\'')'
+++ tail -2
+HPT import OK
+ENGINES_DONE exit=0 Sun Jun  7 12:41:53 UTC 2026

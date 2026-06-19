@@ -1,0 +1,14 @@
+FluidSynth runtime version 2.2.5
+Copyright (C) 2000-2022 Peter Hanappe and others.
+Distributed under the LGPL license.
+SoundFont(R) is a registered trademark of Creative Technology Ltd.
+
+Rendering audio to file '/opt/piano2sheet/cache/selftest_piano.wav'..
+MIDI: /opt/piano2sheet/cache/selftest_piano.mid end_time: 20.87 s
+WAV: /opt/piano2sheet/cache/selftest_piano.wav
+GEN_EXIT=0
+total 3612
+drwxr-xr-x 2 ubuntu ubuntu    4096 Jun  7 13:29 .
+drwxr-xr-x 8 ubuntu ubuntu    4096 Jun  7 12:41 ..
+-rw-rw-r-- 1 ubuntu ubuntu     481 Jun  7 13:29 selftest_piano.mid
+-rw-rw-r-- 1 ubuntu ubuntu 3682604 Jun  7 13:29 selftest_piano.wav

@@ -1,0 +1,184 @@
+Collecting yt-dlp
+  Downloading yt_dlp-2026.3.17-py3-none-any.whl.metadata (182 kB)
+Collecting librosa
+  Downloading librosa-0.11.0-py3-none-any.whl.metadata (8.7 kB)
+Collecting soundfile
+  Downloading soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl.metadata (18 kB)
+Collecting mido
+  Downloading mido-1.3.3-py3-none-any.whl.metadata (6.4 kB)
+Collecting pretty_midi
+  Downloading pretty_midi-0.2.11.tar.gz (5.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 36.1 MB/s  0:00:00
+
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting music21
+  Downloading music21-9.9.2-py3-none-any.whl.metadata (5.2 kB)
+Collecting numpy
+  Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+Collecting scipy
+  Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Collecting tqdm
+  Downloading tqdm-4.68.1-py3-none-any.whl.metadata (57 kB)
+Collecting mir_eval
+  Downloading mir_eval-0.8.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting moduleconf
+  Downloading moduleconf-0.1.4-py3-none-any.whl.metadata (3.8 kB)
+Collecting ffmpeg-python
+  Downloading ffmpeg_python-0.2.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting audioread>=2.1.9 (from librosa)
+  Downloading audioread-3.1.0-py3-none-any.whl.metadata (9.0 kB)
+Collecting numba>=0.51.0 (from librosa)
+  Downloading numba-0.65.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.9 kB)
+Collecting scikit-learn>=1.1.0 (from librosa)
+  Downloading scikit_learn-1.7.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (11 kB)
+Collecting joblib>=1.0 (from librosa)
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting decorator>=4.3.0 (from librosa)
+  Downloading decorator-5.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting pooch>=1.1 (from librosa)
+  Downloading pooch-1.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting soxr>=0.3.2 (from librosa)
+  Downloading soxr-1.1.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.8 kB)
+Requirement already satisfied: typing_extensions>=4.1.1 in ./.venv/lib/python3.10/site-packages (from librosa) (4.15.0)
+Collecting lazy_loader>=0.1 (from librosa)
+  Downloading lazy_loader-0.5-py3-none-any.whl.metadata (5.9 kB)
+Collecting msgpack>=1.0 (from librosa)
+  Downloading msgpack-1.1.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.1 kB)
+Collecting cffi>=1.0 (from soundfile)
+  Downloading cffi-2.0.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.6 kB)
+Requirement already satisfied: packaging in ./.venv/lib/python3.10/site-packages (from mido) (26.2)
+Collecting six (from pretty_midi)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting importlib_resources (from pretty_midi)
+  Downloading importlib_resources-7.1.0-py3-none-any.whl.metadata (4.0 kB)
+Collecting chardet (from music21)
+  Downloading chardet-7.4.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (9.4 kB)
+Collecting jsonpickle (from music21)
+  Downloading jsonpickle-4.1.2-py3-none-any.whl.metadata (8.1 kB)
+Collecting matplotlib (from music21)
+  Downloading matplotlib-3.10.9-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (52 kB)
+Collecting more-itertools (from music21)
+  Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)
+Collecting requests (from music21)
+  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting webcolors>=1.5 (from music21)
+  Downloading webcolors-25.10.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting future (from ffmpeg-python)
+  Downloading future-1.0.0-py3-none-any.whl.metadata (4.0 kB)
+Collecting pycparser (from cffi>=1.0->soundfile)
+  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting llvmlite<0.48,>=0.47.0dev0 (from numba>=0.51.0->librosa)
+  Downloading llvmlite-0.47.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.0 kB)
+Collecting platformdirs>=2.5.0 (from pooch>=1.1->librosa)
+  Downloading platformdirs-4.10.0-py3-none-any.whl.metadata (5.5 kB)
+Collecting charset_normalizer<4,>=2 (from requests->music21)
+  Downloading charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Collecting idna<4,>=2.5 (from requests->music21)
+  Downloading idna-3.18-py3-none-any.whl.metadata (6.1 kB)
+Collecting urllib3<3,>=1.26 (from requests->music21)
+  Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2023.5.7 (from requests->music21)
+  Downloading certifi-2026.5.20-py3-none-any.whl.metadata (2.5 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn>=1.1.0->librosa)
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->music21)
+  Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib->music21)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib->music21)
+  Downloading fonttools-4.63.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (118 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->music21)
+  Downloading kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (5.1 kB)
+Collecting pillow>=8 (from matplotlib->music21)
+  Downloading pillow-12.2.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+Collecting pyparsing>=3 (from matplotlib->music21)
+  Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting python-dateutil>=2.7 (from matplotlib->music21)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Downloading yt_dlp-2026.3.17-py3-none-any.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 86.5 MB/s  0:00:00
+
+Downloading librosa-0.11.0-py3-none-any.whl (260 kB)
+Downloading soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 62.7 MB/s  0:00:00
+
+Downloading mido-1.3.3-py3-none-any.whl (54 kB)
+Downloading music21-9.9.2-py3-none-any.whl (20.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.1/20.1 MB 143.6 MB/s  0:00:00
+
+Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 268.3 MB/s  0:00:00
+
+Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.7/37.7 MB 209.3 MB/s  0:00:00
+
+Downloading tqdm-4.68.1-py3-none-any.whl (78 kB)
+Downloading mir_eval-0.8.2-py3-none-any.whl (102 kB)
+Downloading moduleconf-0.1.4-py3-none-any.whl (5.9 kB)
+Downloading ffmpeg_python-0.2.0-py3-none-any.whl (25 kB)
+Downloading audioread-3.1.0-py3-none-any.whl (23 kB)
+Downloading cffi-2.0.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (216 kB)
+Downloading decorator-5.3.1-py3-none-any.whl (10 kB)
+Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+Downloading lazy_loader-0.5-py3-none-any.whl (8.0 kB)
+Downloading msgpack-1.1.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (406 kB)
+Downloading numba-0.65.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 197.9 MB/s  0:00:00
+
+Downloading llvmlite-0.47.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (56.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.3/56.3 MB 49.8 MB/s  0:00:01
+
+Downloading pooch-1.9.0-py3-none-any.whl (67 kB)
+Downloading platformdirs-4.10.0-py3-none-any.whl (22 kB)
+Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Downloading charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (216 kB)
+Downloading idna-3.18-py3-none-any.whl (65 kB)
+Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+Downloading certifi-2026.5.20-py3-none-any.whl (134 kB)
+Downloading scikit_learn-1.7.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.7/9.7 MB 259.2 MB/s  0:00:00
+
+Downloading soxr-1.1.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (245 kB)
+Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Downloading webcolors-25.10.0-py3-none-any.whl (14 kB)
+Downloading chardet-7.4.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (886 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 886.5/886.5 kB 77.6 MB/s  0:00:00
+
+Downloading future-1.0.0-py3-none-any.whl (491 kB)
+Downloading importlib_resources-7.1.0-py3-none-any.whl (37 kB)
+Downloading jsonpickle-4.1.2-py3-none-any.whl (47 kB)
+Downloading matplotlib-3.10.9-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.8/8.8 MB 235.3 MB/s  0:00:00
+
+Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (325 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.63.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 212.9 MB/s  0:00:00
+
+Downloading kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 110.4 MB/s  0:00:00
+
+Downloading pillow-12.2.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 225.4 MB/s  0:00:00
+
+Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading more_itertools-11.1.0-py3-none-any.whl (72 kB)
+Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Building wheels for collected packages: pretty_midi
+  Building wheel for pretty_midi (pyproject.toml): started
+  Building wheel for pretty_midi (pyproject.toml): finished with status 'done'
+  Created wheel for pretty_midi: filename=pretty_midi-0.2.11-py3-none-any.whl size=5595976 sha256=1c8b2307a56c7a179e12c0c77dfa02fbd21e064f9ed63fd8bc33bfb006416c8e
+  Stored in directory: /tmp/cursor-sandbox-cache/5611f5f146e6d3026fc17096077ca428/pip/wheels/1c/34/7f/bfb7839bb83bde9760012a22955bada5fcd50c67ff426ccf40
+Successfully built pretty_midi
+Installing collected packages: yt-dlp, webcolors, urllib3, tqdm, threadpoolctl, six, pyparsing, pycparser, platformdirs, pillow, numpy, msgpack, more-itertools, moduleconf, mido, llvmlite, lazy_loader, kiwisolver, jsonpickle, joblib, importlib_resources, idna, future, fonttools, decorator, cycler, charset_normalizer, chardet, certifi, audioread, soxr, scipy, requests, python-dateutil, pretty_midi, numba, ffmpeg-python, contourpy, cffi, soundfile, scikit-learn, pooch, mir_eval, matplotlib, music21, librosa
+
+
+Successfully installed audioread-3.1.0 certifi-2026.5.20 cffi-2.0.0 chardet-7.4.3 charset_normalizer-3.4.7 contourpy-1.3.2 cycler-0.12.1 decorator-5.3.1 ffmpeg-python-0.2.0 fonttools-4.63.0 future-1.0.0 idna-3.18 importlib_resources-7.1.0 joblib-1.5.3 jsonpickle-4.1.2 kiwisolver-1.5.0 lazy_loader-0.5 librosa-0.11.0 llvmlite-0.47.0 matplotlib-3.10.9 mido-1.3.3 mir_eval-0.8.2 moduleconf-0.1.4 more-itertools-11.1.0 msgpack-1.1.2 music21-9.9.2 numba-0.65.1 numpy-2.2.6 pillow-12.2.0 platformdirs-4.10.0 pooch-1.9.0 pretty_midi-0.2.11 pycparser-3.0 pyparsing-3.3.2 python-dateutil-2.9.0.post0 requests-2.34.2 scikit-learn-1.7.2 scipy-1.15.3 six-1.17.0 soundfile-0.14.0 soxr-1.1.0 threadpoolctl-3.6.0 tqdm-4.68.1 urllib3-2.7.0 webcolors-25.10.0 yt-dlp-2026.3.17
+DEPS_DONE exit=0 Sun Jun  7 12:40:28 UTC 2026

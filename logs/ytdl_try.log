@@ -1,0 +1,61 @@
+===== TRY player_client=tv =====
+[YoutubeYtBe] Extracting URL: https://youtu.be/EO0g6grDd74?list=RDEO0g6grDd74
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74&list=RDEO0g6grDd74&feature=youtu.be
+[youtube:tab] Downloading just the video EO0g6grDd74 because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74
+[youtube] EO0g6grDd74: Downloading webpage
+[youtube] EO0g6grDd74: Downloading tv client config
+[youtube] EO0g6grDd74: Downloading player 5cabb421-main
+[youtube] EO0g6grDd74: Downloading tv player API JSON
+WARNING: [youtube] No title found in player responses; falling back to title from initial data. Other metadata may also be missing
+ERROR: [youtube] EO0g6grDd74: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+FAILED client=tv
+===== TRY player_client=web_safari =====
+[YoutubeYtBe] Extracting URL: https://youtu.be/EO0g6grDd74?list=RDEO0g6grDd74
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74&list=RDEO0g6grDd74&feature=youtu.be
+[youtube:tab] Downloading just the video EO0g6grDd74 because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74
+[youtube] EO0g6grDd74: Downloading webpage
+WARNING: [youtube] No title found in player responses; falling back to title from initial data. Other metadata may also be missing
+ERROR: [youtube] EO0g6grDd74: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+FAILED client=web_safari
+===== TRY player_client=mweb =====
+[YoutubeYtBe] Extracting URL: https://youtu.be/EO0g6grDd74?list=RDEO0g6grDd74
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74&list=RDEO0g6grDd74&feature=youtu.be
+[youtube:tab] Downloading just the video EO0g6grDd74 because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74
+[youtube] EO0g6grDd74: Downloading webpage
+[youtube] EO0g6grDd74: Downloading mweb client config
+[youtube] EO0g6grDd74: Downloading mweb player API JSON
+WARNING: [youtube] No title found in player responses; falling back to title from initial data. Other metadata may also be missing
+ERROR: [youtube] EO0g6grDd74: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+FAILED client=mweb
+===== TRY player_client=tv_simply =====
+[YoutubeYtBe] Extracting URL: https://youtu.be/EO0g6grDd74?list=RDEO0g6grDd74
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74&list=RDEO0g6grDd74&feature=youtu.be
+[youtube:tab] Downloading just the video EO0g6grDd74 because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74
+[youtube] EO0g6grDd74: Downloading webpage
+[youtube] EO0g6grDd74: Downloading tv simply player API JSON
+ERROR: [youtube] EO0g6grDd74: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+FAILED client=tv_simply
+===== TRY player_client=default,tv,web_safari,mweb =====
+[YoutubeYtBe] Extracting URL: https://youtu.be/EO0g6grDd74?list=RDEO0g6grDd74
+[youtube:tab] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74&list=RDEO0g6grDd74&feature=youtu.be
+[youtube:tab] Downloading just the video EO0g6grDd74 because of --no-playlist
+[youtube] Extracting URL: https://www.youtube.com/watch?v=EO0g6grDd74
+[youtube] EO0g6grDd74: Downloading webpage
+[youtube] EO0g6grDd74: Downloading android vr player API JSON
+[youtube] EO0g6grDd74: Downloading tv client config
+[youtube] EO0g6grDd74: Downloading player 5cabb421-main
+[youtube] EO0g6grDd74: Downloading tv player API JSON
+[youtube] EO0g6grDd74: Downloading mweb client config
+[youtube] EO0g6grDd74: Downloading mweb player API JSON
+WARNING: [youtube] No title found in player responses; falling back to title from initial data. Other metadata may also be missing
+ERROR: [youtube] EO0g6grDd74: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+FAILED client=default,tv,web_safari,mweb
+----- files -----
+total 24
+drwxrwxr-x  2 ubuntu ubuntu  4096 Jun  7 12:46 .
+drwxrwxrwt 20 root   root   20480 Jun  7 12:46 ..
+WINNER=

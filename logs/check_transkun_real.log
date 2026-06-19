@@ -1,0 +1,12 @@
+=== files ===
+total 25804
+drwxrwxr-x 2 ubuntu ubuntu     4096 Jun  7 13:52 .
+drwxr-xr-x 6 ubuntu ubuntu     4096 Jun  7 13:52 ..
+-rw-rw-r-- 1 ubuntu ubuntu       48 Jun  7 13:52 00_source.url
+-rw-rw-r-- 1 ubuntu ubuntu  4527441 Jun  7 13:52 01_raw_audio.webm
+-rw-rw-r-- 1 ubuntu ubuntu 21599928 Jun  7 13:52 02_audio_44100_mono.wav
+-rw-rw-r-- 1 ubuntu ubuntu     6316 Jun  7 13:52 03_transkun.mid
+-rw-rw-r-- 1 ubuntu ubuntu     1993 Jun  7 13:53 console.log
+-rw-rw-r-- 1 ubuntu ubuntu   265425 Jun  7 13:53 run.log
+=== transkun MIDI stats ===
+notes=905 dur=243.3s instruments=1

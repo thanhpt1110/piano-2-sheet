@@ -1,0 +1,21 @@
+/opt/piano2sheet/.venv/lib/python3.10/site-packages/torch/_subclasses/functional_tensor.py:307: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:84.)
+  cpu = _conversion_method_template(device=torch.device("cpu"))
+torch 2.11.0+cu128
+cuda_available True
+device_count 1
+name NVIDIA RTX PRO 6000 Blackwell Server Edition
+capability (12, 0)
+matmul_ok True
+BLACKWELL_KERNEL_OK
+---TOOLS---
+ffmpeg         /usr/bin/ffmpeg
+lilypond       /usr/bin/lilypond
+musicxml2ly    /usr/bin/musicxml2ly
+musescore      (missing)
+mscore         (missing)
+musescore3     /usr/bin/musescore3
+mscore3        /usr/bin/mscore3
+musescore4     (missing)
+timidity       /usr/bin/timidity
+fluidsynth     /usr/bin/fluidsynth
+xvfb-run       /usr/bin/xvfb-run

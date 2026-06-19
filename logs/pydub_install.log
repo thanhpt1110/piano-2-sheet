@@ -1,0 +1,13 @@
+Collecting pydub
+  Downloading pydub-0.25.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Downloading pydub-0.25.1-py2.py3-none-any.whl (32 kB)
+Installing collected packages: pydub
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+transkun 2.0.1 requires ncls, which is not installed.
+transkun 2.0.1 requires seaborn, which is not installed.
+transkun 2.0.1 requires sox, which is not installed.
+transkun 2.0.1 requires tensorboard, which is not installed.
+transkun 2.0.1 requires torch-optimizer, which is not installed.
+Successfully installed pydub-0.25.1
+torch still 2.11.0+cu128 True
+PYDUB_DONE exit=0
